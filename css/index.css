@@ -1,0 +1,120 @@
+*{margin:0;padding:0;list-style:none;}
+body{
+	font-family: "微软雅黑";
+	font-size: 20px;
+	font-weight:bold;
+	overflow: hidden;
+	background: url(../image/67034739af850fca57be5f26a9bcdc65cbf2d42e1210f7-Ayg2si_fw658.jpg) no-repeat;
+	background-size: cover;
+	/*position: relative;
+	left:0;
+	top:0;*/
+}
+.gun{
+	width:330px;
+	height:220px;
+	position: fixed;
+	right:85px;
+	bottom:-60px;
+	font-size: 0;
+}
+.zdan{
+	width:43px;
+	height:30px;
+	border-radius: 50px;
+	position: absolute;
+	right:357px;
+	bottom:99px;
+	z-index: 40;
+	background:url(../image/zdan.png) center;
+	/*background-size: 10px 10px;*/
+}
+.scors{
+
+	width:300px;
+	height:226px;
+	background: #A0C7F5;
+	position: fixed;
+	right:0px;
+	top:150px;
+}
+.scors img{
+	width:26px;
+	height:22px;
+	line-height: 73px;
+}
+.scors ul li{
+	padding-left:20px;
+	border-bottom:2px solid #55BB23;
+	font-size: 36px;
+	width:300px;
+	height:73px;
+	text-align: left;
+	line-height: 73px;
+}
+.pass,.fail{
+	width:300px;
+	height:200px;
+	background: #55BB23 url(../image/xing1.png) no-repeat center 56px;
+	background-size: 230px 108px;
+	position: absolute;
+	left:50%;
+	top:50%;
+	margin-left:-150px;
+	margin-top: -150px;
+	color:#0035DE;
+	overflow: hidden;
+	display: none;
+	z-index:9999;
+}
+.pass img,.fail img{
+	width:230px;
+	height:108px;
+	position:absolute;
+	left:35px;
+	top:56px;
+
+}
+p{
+	width:100%;
+	height:80px;
+	line-height:56px;
+	font-size: 50px;
+	text-align: center;
+}
+.btn{
+	width: 145px;
+    height: 31px;
+    text-align: center;
+    line-height: 31px;
+    margin:86px auto 0;
+    cursor:pointer;
+}
+.by1{
+	width:127px;
+	height:71px;
+	position: absolute;
+	left:0;
+	top:30px;
+}
+.by2{
+	width:132px;
+	height:71px;
+	position: absolute;
+	left:710px;
+	top:124px;
+}
+.by3{
+	width:132px;
+	height:71px;
+	position: absolute;
+	left:80px;
+	top:60px;
+}
+.by4{
+	width:141px;
+	height:106px;
+	position: absolute;
+	left:765px;
+	top:30px;
+}
