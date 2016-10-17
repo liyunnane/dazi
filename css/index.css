@@ -9,6 +9,7 @@ body{
 	/*position: relative;
 	left:0;
 	top:0;*/
+	background: blue;
 }
 .gun{
 	width:330px;
@@ -45,7 +46,7 @@ body{
 }
 .scors ul li{
 	padding-left:20px;
-	border-bottom:2px solid #55BB23;
+	border-bottom:2px solid green;
 	font-size: 36px;
 	width:300px;
 	height:73px;
